@@ -1,0 +1,37 @@
+2025-11-02 15:23:01,039 [INFO] Pipeline initialized (dry_run=False, force=False)
+2025-11-02 15:23:01,039 [INFO] ============================================================
+2025-11-02 15:23:01,039 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:23:01,039 [INFO] ============================================================
+2025-11-02 15:23:01,039 [INFO] ============================================================
+2025-11-02 15:23:01,039 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:23:01,040 [INFO] ============================================================
+2025-11-02 15:23:01,041 [INFO] Discovered 1 files in 1 manifest-approved dirs
+2025-11-02 15:23:01,041 [INFO]   -> Skipped (up to date): DIRECTORY_MANIFEST.md
+2025-11-02 15:23:01,042 [INFO] ============================================================
+2025-11-02 15:23:01,042 [INFO] EXECUTION SUMMARY
+2025-11-02 15:23:01,042 [INFO] ============================================================
+2025-11-02 15:23:01,043 [INFO] Processed:   0
+2025-11-02 15:23:01,043 [INFO] Skipped:     1
+2025-11-02 15:23:01,043 [INFO] Failed:      0
+2025-11-02 15:23:01,044 [INFO] Space saved: 0.00 MB
+2025-11-02 15:23:01,044 [INFO] ============================================================
+2025-11-02 15:23:01,246 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-11-02 15:23:01,247 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-02 15:23:18,371 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\david\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\david\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\david\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\david\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\web_server.py", line 57, in index
+    return render_template_string(HTML_TEMPLATE, root=str(DML_ROOT), files=sorted(files))
+                                                                           ~~~~~~^^^^^^^
+TypeError: '<' not supported between instances of 'dict' and 'dict'
+2025-11-02 15:23:18,374 [INFO] 127.0.0.1 - - [02/Nov/2025 15:23:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-02 15:23:18,411 [INFO] 127.0.0.1 - - [02/Nov/2025 15:23:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

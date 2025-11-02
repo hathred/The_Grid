@@ -1,0 +1,142 @@
+# POLYMATH OFFLINE REPOSITORY INVENTORY (YAML)
+# This list is structured for machine-readability and archival integrity.
+
+repository_inventory:
+
+  CORE_SYSTEMS_AND_INFRASTRUCTURE:
+    - discipline: System & Utilities
+      core_software:
+        - 7-Zip
+        - Clonezilla
+        - GParted
+        - VirtualBox
+        - VMware
+        - TImagePrinter
+      dependencies:
+        - "OS Backups: Full, bootable ISOs for primary OS and server/desktop environments."
+        - "Drivers: Complete hardware driver packs (Chipset, GPU, Network, RAID)."
+        - "Virtualization Tools: Full installers for VirtualBox Extension Pack and VMware Tools/Fusion (Guest Additions)."
+        - "Rescue/Forensics: Hiren's BootCD PE, VeraCrypt installer/documentation, Sysinternals Suite (Windows), and a standalone Hex Editor."
+
+    - discipline: Networking & Security
+      core_software:
+        - FileZilla
+        - WireShark
+      dependencies:
+        - "WireShark Dependency: Full installer for WinPcap or Npcap."
+        - "Access Tools: Standalone installers for PuTTY (SSH) and core networking utilities (e.g., Nmap)."
+        - "Networking Docs: Downloaded copies of crucial RFCs (TCP/IP, HTTP) and WireShark User Guide."
+
+    - discipline: Containerization
+      core_software:
+        - Docker
+      dependencies:
+        - "Backend: Installers for Hyper-V or WSL 2."
+        - "Image Cache: 'docker save' archives of all necessary base images (Alpine, Ubuntu, Databases, Nginx)."
+        - "Local Registry: Instructions and server image for setting up a private, local Docker registry."
+
+  DEVELOPMENT_AND_LANGUAGES:
+    - discipline: Development Environments
+      core_software:
+        - Visual Studio Code
+        - Apache NetBeans
+        - Atom
+        - Eclipse
+      dependencies:
+        - "VS Code Extensions: Downloaded VSIX files for all essential extensions (Python, GitLens, Debuggers)."
+        - "Build Tools: Full installers for Git, Apache Maven, Gradle, and Bundler."
+    
+    - discipline: Language Runtimes & Frameworks
+      core_software:
+        - Ruby on Rails
+      dependencies:
+        - "Runtimes: Full, multi-version offline installers for Java JDK/JRE, Python (3.x/2.x), and Ruby."
+        - "Local Mirrors: A local RubyGems mirror/cache containing the core Rails framework and frequently used gems."
+        - "Documentation: Offline documentation bundles for Ruby, Rails Guides, Java API, and Python standard libraries."
+        
+    - discipline: Web & Automation
+      core_software:
+        - Chromium
+        - Chrome
+        - Selenium
+      dependencies:
+        - "Browser Drivers: Specific versions of Chromium/WebDriver matching installed browser versions for Selenium."
+        - "Web Standards: Offline bundle of MDN Web Docs (HTML, CSS, JavaScript reference)."
+        
+    - discipline: Database Systems (Suggested)
+      core_software:
+        - PostgreSQL (Implied)
+        - MySQL/MariaDB (Implied)
+      dependencies:
+        - "Installers: Offline installers for PostgreSQL/MySQL and SQLite."
+        - "Management Tools: DBeaver or pgAdmin full installers."
+
+  CREATIVE_HARDWARE_AND_SPECIALTY:
+    - discipline: Proprietary Design & CAD
+      core_software:
+        - Adobe Creative Suite (Photoshop, Illustrator)
+        - Fusion 360
+      dependencies:
+        - "Licensing: Crucial Pre-Activation. Execute max offline grace period before outage for both apps."
+        - "Plugins & Assets: Full installers for all third-party plugins, filters, presets, and color profiles (ICC)."
+        - "Assets: Extensive professional font library."
+
+    - discipline: Open-Source Graphics
+      core_software:
+        - GIMP
+        - Gravit Designer
+        - Krita
+        - Paint.NET
+        - Inkscape
+      dependencies:
+        - "Runtimes: Full, correct-version installer for the GTK+ Runtime (for GIMP/Inkscape on Windows)."
+        - "Assets: Brushes, custom palettes, texture packs, and extension libraries for all core graphics apps."
+
+    - discipline: Audio/Video Processing
+      core_software:
+        - Audacity
+        - ffmpeg
+        - HandBrake
+        - VLC Media Player
+      dependencies:
+        - "Codec Packs: Complete system-wide audio/video codec packs (e.g., K-Lite)."
+        - "Audacity Plugins: Installers for essential VST/LADSPA audio effect plugins."
+
+    - discipline: 3D Modeling & Printing
+      core_software:
+        - Meshmixer
+        - Simplify3D
+      dependencies:
+        - "Slicer Utilities: Full installers for alternative slicers (e.g., PrusaSlicer, Cura)."
+        - "Assets: Libraries of common 3D file formats, textures, and calibration STL files."
+
+    - discipline: Electronics & Firmware
+      core_software:
+        - Arduino
+        - BLHeliSuite
+        - PicEngrave
+      dependencies:
+        - "Arduino Libraries: Full offline download of all necessary core board definitions and custom libraries."
+        - "Firmware Backup: Stable, compiled, and source versions of BLHeli firmware and 3D Printer firmware (e.g., Marlin/Klipper)."
+        - "Specialty Drivers: Required low-level drivers for engraving hardware."
+
+    - discipline: Communication & Local Server
+      core_software:
+        - Discord
+        - Rocket.Chat
+        - Thunderbird
+      dependencies:
+        - "Local Server: Installer and pre-configured database for a self-hosted platform like Rocket.Chat (LAN-only team coordination VM)."
+        - "Email Archive: Complete local archives of essential Thunderbird email accounts."
+
+  KNOWLEDGE_BASE_AND_ARCHIVAL_LIBRARY:
+    - discipline: Archival Library
+      core_software:
+        - Kiwix (Suggested Reader)
+        - Git Client (Suggested Tool)
+      dependencies:
+        - "Universal Reference: Complete, compressed, and searchable offline database dump of Wikipedia (e.g., using Kiwix)."
+        - "Academic Texts: Curated digital library of key textbooks, handbooks, and foundational papers across all fields."
+        - "API Reference: Full offline documentation bundle (DevDocs/Zeal) for all relevant languages and frameworks."
+        - "Source Code Archive: Local mirrors ('git clone --mirror') of the source code for all critical open-source software and personal repositories."
+        - "Standards Documents: Downloaded PDFs of W3C/ECMAScript specs, Data Formats, and key Networking RFCs."

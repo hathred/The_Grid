@@ -1,0 +1,56 @@
+2025-11-02 14:56:20,570 [INFO] Pipeline initialized (dry_run=False, force=True)
+2025-11-02 14:56:20,570 [INFO] ============================================================
+2025-11-02 14:56:20,571 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 14:56:20,572 [INFO] ============================================================
+2025-11-02 14:56:20,573 [INFO] ============================================================
+2025-11-02 14:56:20,574 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 14:56:20,574 [INFO] ============================================================
+2025-11-02 14:56:20,600 [INFO] Discovered 39 files in 28 manifest-approved dirs
+2025-11-02 14:56:20,609 [INFO]   -> Success: manifest.yml (6470 -> 3338 bytes, -3.1KB)
+2025-11-02 14:56:20,610 [INFO]   -> Success: DIRECTORY_MANIFEST.md (2652 -> 1944 bytes, -0.7KB)
+2025-11-02 14:56:20,611 [INFO]   -> Success: SETUP_WINDOWS.md (597 -> 707 bytes, --0.1KB)
+2025-11-02 14:56:20,612 [INFO]   -> Success: DIRECTORY_MANIFEST.md (2280 -> 1692 bytes, -0.6KB)
+2025-11-02 14:56:20,613 [INFO]   -> Success: Gitlab_install_instructions.txt (47 -> 354 bytes, --0.3KB)
+2025-11-02 14:56:20,614 [INFO]   -> Success: DIRECTORY_MANIFEST.md (2220 -> 1608 bytes, -0.6KB)
+2025-11-02 14:56:20,614 [INFO]   -> Success: DIRECTORY_MANIFEST.md (2128 -> 1564 bytes, -0.6KB)
+2025-11-02 14:56:20,615 [INFO]   -> Success: DIRECTORY_MANIFEST.md (2127 -> 1612 bytes, -0.5KB)
+2025-11-02 14:56:20,616 [INFO]   -> Success: DIRECTORY_MANIFEST.md (447 -> 664 bytes, --0.2KB)
+2025-11-02 14:56:20,616 [INFO]   -> Success: Airflow_install_instructions.txt (115 -> 399 bytes, --0.3KB)
+2025-11-02 14:56:20,617 [INFO]   -> Success: Prefect_install_instructions.txt (46 -> 363 bytes, --0.3KB)
+2025-11-02 14:56:20,618 [INFO]   -> Success: DIRECTORY_MANIFEST.md (467 -> 668 bytes, --0.2KB)
+2025-11-02 14:56:20,619 [INFO]   -> Success: DIRECTORY_MANIFEST.md (429 -> 656 bytes, --0.2KB)
+2025-11-02 14:56:20,620 [INFO]   -> Success: DIRECTORY_MANIFEST.md (451 -> 668 bytes, --0.2KB)
+2025-11-02 14:56:20,621 [INFO]   -> Success: DIRECTORY_MANIFEST.md (445 -> 664 bytes, --0.2KB)
+2025-11-02 14:56:20,621 [INFO]   -> Success: DIRECTORY_MANIFEST.md (455 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,623 [INFO]   -> Success: DIRECTORY_MANIFEST.md (447 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,624 [INFO]   -> Success: DIRECTORY_MANIFEST.md (439 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,624 [INFO]   -> Success: DIRECTORY_MANIFEST.md (439 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,625 [INFO]   -> Success: DIRECTORY_MANIFEST.md (437 -> 652 bytes, --0.2KB)
+2025-11-02 14:56:20,626 [INFO]   -> Success: DIRECTORY_MANIFEST.md (449 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,627 [INFO]   -> Success: node__docker_instructions.txt (459 -> 632 bytes, --0.2KB)
+2025-11-02 14:56:20,628 [INFO]   -> Success: DIRECTORY_MANIFEST.md (453 -> 656 bytes, --0.2KB)
+2025-11-02 14:56:20,628 [INFO]   -> Success: DIRECTORY_MANIFEST.md (447 -> 664 bytes, --0.2KB)
+2025-11-02 14:56:20,629 [INFO]   -> Success: OhShINT.txt (97 -> 378 bytes, --0.3KB)
+2025-11-02 14:56:20,630 [INFO]   -> Success: DIRECTORY_MANIFEST.md (453 -> 664 bytes, --0.2KB)
+2025-11-02 14:56:20,630 [INFO]   -> Success: DIRECTORY_MANIFEST.md (439 -> 660 bytes, --0.2KB)
+2025-11-02 14:56:20,631 [INFO]   -> Success: DIRECTORY_MANIFEST.md (461 -> 672 bytes, --0.2KB)
+2025-11-02 14:56:20,632 [INFO]   -> Success: DIRECTORY_MANIFEST.md (443 -> 644 bytes, --0.2KB)
+2025-11-02 14:56:20,633 [INFO]   -> Success: DIRECTORY_MANIFEST.md (439 -> 648 bytes, --0.2KB)
+2025-11-02 14:56:20,634 [INFO]   -> Success: auto_download_manifest.json (489 -> 450 bytes, -0.0KB)
+2025-11-02 14:56:20,637 [INFO]   -> Success: config.yaml (1640 -> 666 bytes, -1.0KB)
+2025-11-02 14:56:20,639 [INFO]   -> Success: grok_config_yaml.txt (4528 -> 2467 bytes, -2.0KB)
+2025-11-02 14:56:20,640 [INFO]   -> Success: requirements.txt (11 -> 307 bytes, --0.3KB)
+2025-11-02 14:56:20,640 [INFO]   -> Success: DIRECTORY_MANIFEST.md (441 -> 636 bytes, --0.2KB)
+2025-11-02 14:56:20,641 [INFO]   -> Success: TEMPLATE_DIRECTORY_MANIFEST.md (1332 -> 1233 bytes, -0.1KB)
+2025-11-02 14:56:20,643 [INFO]   -> Success: project_summary.md (16089 -> 7969 bytes, -7.9KB)
+2025-11-02 14:56:20,645 [INFO]   -> Success: filelist_post_mirroring.txt (47498 -> 9074 bytes, -37.5KB)
+2025-11-02 14:56:20,646 [INFO]   -> Success: DIRECTORY_MANIFEST.md (429 -> 640 bytes, --0.2KB)
+2025-11-02 14:56:20,646 [INFO] ============================================================
+2025-11-02 14:56:20,646 [INFO] EXECUTION SUMMARY
+2025-11-02 14:56:20,647 [INFO] ============================================================
+2025-11-02 14:56:20,647 [INFO] Processed:   39
+2025-11-02 14:56:20,647 [INFO] Skipped:     0
+2025-11-02 14:56:20,648 [INFO] Failed:      0
+2025-11-02 14:56:20,648 [INFO] Space saved: 0.05 MB
+2025-11-02 14:56:20,648 [INFO] ============================================================
+2025-11-02 14:56:20,652 [ERROR] STATS: Failed to generate report: division by zero

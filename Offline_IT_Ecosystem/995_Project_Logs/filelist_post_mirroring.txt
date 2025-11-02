@@ -1,0 +1,640 @@
+E:\NextGen\bat files
+E:\NextGen\consolidate.bat
+E:\NextGen\filelist.bat
+E:\NextGen\filelist.txt
+E:\NextGen\Offline_IT_Ecosystem
+E:\NextGen\outranet_stubs.bat
+E:\NextGen\Religion
+E:\NextGen\Role play
+E:\NextGen\The Generator
+E:\NextGen\bat files\filelist.bat
+E:\NextGen\bat files\generate_gallery.bat
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community
+E:\NextGen\Offline_IT_Ecosystem\140_Game_Development
+E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies
+E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines
+E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence
+E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching
+E:\NextGen\Offline_IT_Ecosystem\cicd
+E:\NextGen\Offline_IT_Ecosystem\Containers
+E:\NextGen\Offline_IT_Ecosystem\Doc
+E:\NextGen\Offline_IT_Ecosystem\Git
+E:\NextGen\Offline_IT_Ecosystem\Grok
+E:\NextGen\Offline_IT_Ecosystem\idp
+E:\NextGen\Offline_IT_Ecosystem\java
+E:\NextGen\Offline_IT_Ecosystem\javascript
+E:\NextGen\Offline_IT_Ecosystem\logs
+E:\NextGen\Offline_IT_Ecosystem\Meta_Manifest.txt
+E:\NextGen\Offline_IT_Ecosystem\Monitoring
+E:\NextGen\Offline_IT_Ecosystem\MQTT
+E:\NextGen\Offline_IT_Ecosystem\node
+E:\NextGen\Offline_IT_Ecosystem\offline_db
+E:\NextGen\Offline_IT_Ecosystem\orchestrator
+E:\NextGen\Offline_IT_Ecosystem\os_automation
+E:\NextGen\Offline_IT_Ecosystem\outranet
+E:\NextGen\Offline_IT_Ecosystem\outranet_dashboard.html
+E:\NextGen\Offline_IT_Ecosystem\php
+E:\NextGen\Offline_IT_Ecosystem\pip_archive
+E:\NextGen\Offline_IT_Ecosystem\project_file_structure_manifest.json
+E:\NextGen\Offline_IT_Ecosystem\scripts
+E:\NextGen\Offline_IT_Ecosystem\SW_Manifest
+E:\NextGen\Offline_IT_Ecosystem\ToDo.txt
+E:\NextGen\Offline_IT_Ecosystem\WebServer
+E:\NextGen\Offline_IT_Ecosystem\Wiki
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\Tools
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\VM_Images
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\Tools\nmap-7.98-setup.exe
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\Tools\Wireshark-4.6.0-x64.exe
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\Tools\ZAP_2_16_1_windows.exe
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\VM_Images\checksum.txt
+E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\VM_Images\kali-linux-2025.3-installer-amd64.iso
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Simulators
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Tools
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Simulators\ganache-ui-develop.zip
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Simulators\hardhat-hardhat-3.0.10.zip
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Tools\Remix-Desktop-Setup-1.1.5.exe
+E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\Tools\solidity-develop.zip
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\IRC_Server
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\MUD_Source
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\IRC_Server\mirc782.exe
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\IRC_Server\unrealircd-6.2.0.2.exe
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\IRC_Server\unrealircd-6.2.0.2.tar.gz
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\MUD_Source\xsmaug-master.zip
+E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\MUD_Source\_smaug_-master.zip
+E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\Engines
+E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\Engines\Godot_v4.5.1-stable_win64.exe.zip
+E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\Engines\StrideSetup.exe
+E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\Tools
+E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\Tools\Gajim Installer.exe
+E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\Tools\openfire_5_0_2_x64.exe
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node-v24.11.0-win-x64.zip
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node-v24.11.0-x64.msi
+E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node__docker_instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\Source
+E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\Source\HardeningKitty-master.zip
+E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\Source\scap-content-library-main.zip
+E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets
+E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets\OhShINT.txt
+E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\INSTRUCTIONS.MD
+E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\Tools
+E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\Tools\caddy-master.zip
+E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\Tools\squid-master.zip
+E:\NextGen\Offline_IT_Ecosystem\cicd\jenkins.msi
+E:\NextGen\Offline_IT_Ecosystem\Containers\Docker Desktop Installer.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kube-log-runner.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kube-log-runner.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Containers\kube-proxy.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kube-proxy.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubeadm.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubeadm.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubectl-convert.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubectl-convert.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubectl.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubectl.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubelet.exe
+E:\NextGen\Offline_IT_Ecosystem\Containers\kubelet.exe.sha256
+E:\NextGen\Offline_IT_Ecosystem\Doc\pandoc-3.8.2.1-windows-x86_64.msi
+E:\NextGen\Offline_IT_Ecosystem\Git\gitea-1.24.6-darwin-10.12-amd64
+E:\NextGen\Offline_IT_Ecosystem\Git\gitea-1.24.6-gogit-windows-4.0-amd64.exe
+E:\NextGen\Offline_IT_Ecosystem\Git\Gitlab_install_instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\Grok\Code of the Larpers
+E:\NextGen\Offline_IT_Ecosystem\Grok\Summarize
+E:\NextGen\Offline_IT_Ecosystem\Grok\Code of the Larpers\BtyeHalo.txt
+E:\NextGen\Offline_IT_Ecosystem\Grok\Summarize\Code of the larpers instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\idp\keycloak-26.4.2.zip
+E:\NextGen\Offline_IT_Ecosystem\idp\openldap-2.6.10.tgz
+E:\NextGen\Offline_IT_Ecosystem\idp\openldap-2.6.10.tgz.asc
+E:\NextGen\Offline_IT_Ecosystem\java\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\javascript\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\logs\filelist_post_mirroring.txt
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\elasticsearch-9.2.0-windows-x86_64.zip
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\elasticsearch-9.2.0-windows-x86_64.zip.sha512
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\kibana-9.2.0-windows-x86_64.zip
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\kibana-9.2.0-windows-x86_64.zip.sha512
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\logstash-9.2.0-windows-x86_64.zip
+E:\NextGen\Offline_IT_Ecosystem\Monitoring\ELK\logstash-9.2.0-windows-x86_64.zip.sha512
+E:\NextGen\Offline_IT_Ecosystem\MQTT\mosquitto-2.0.22-install-windows-x64.exe
+E:\NextGen\Offline_IT_Ecosystem\node\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\offline_db\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\offline_db\mongodb-windows-x86_64-8.2.1-signed.msi
+E:\NextGen\Offline_IT_Ecosystem\offline_db\postgresql-18.0-2-windows-x64.exe
+E:\NextGen\Offline_IT_Ecosystem\offline_db\wampserver3.3.7_x64.exe
+E:\NextGen\Offline_IT_Ecosystem\orchestrator\Airflow_install_instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\orchestrator\Prefect_install_instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\os_automation\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\outranet\manifest_json.txt
+E:\NextGen\Offline_IT_Ecosystem\outranet\stub_cmd.txt
+E:\NextGen\Offline_IT_Ecosystem\php\instructions.txt
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\amqp-5.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\annotated_doc-0.0.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\annotated_types-0.7.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ansible_core-2.19.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\anyio-4.11.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\argon2_cffi-25.1.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\argon2_cffi_bindings-25.1.0-cp39-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\arrow-1.4.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\asgiref-3.10.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\asttokens-3.0.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\async_lru-2.0.5-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\attrs-25.4.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\automat-25.4.16-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\babel-2.17.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\bcrypt-5.0.0-cp39-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\beautifulsoup4-4.14.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\billiard-4.2.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\bleach-6.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\blinker-1.9.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\celery-5.5.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\certifi-2025.10.5-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\cffi-2.0.0-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\charset_normalizer-3.4.4-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\click-8.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\click_didyoumean-0.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\click_plugins-1.1.1.2-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\click_repl-0.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\colorama-0.4.6-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\comm-0.2.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\constantly-23.10.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\contourpy-1.3.3-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\coverage-7.11.0-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\cryptography-46.0.3-cp311-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\cssselect-1.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\cycler-0.12.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\debugpy-1.8.17-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\decorator-5.2.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\defusedxml-0.7.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\distlib-0.4.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\django-5.2.7-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\executing-2.2.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\fastapi-0.120.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\fastjsonschema-2.21.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\filelock-3.20.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\flask-3.1.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\fonttools-4.60.1-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\fqdn-1.5.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\greenlet-3.2.4-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\h11-0.16.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\httpcore-1.0.9-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\httpx-0.28.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\hyperlink-21.0.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\idna-3.11-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\incremental-24.7.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\iniconfig-2.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\invoke-2.2.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ipykernel-7.1.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ipython-9.6.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ipython_pygments_lexers-1.1.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ipywidgets-8.1.7-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\isoduration-20.11.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\itemadapter-0.12.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\itemloaders-1.3.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\itsdangerous-2.2.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jedi-0.19.2-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jinja2-3.1.6-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jmespath-1.0.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\joblib-1.5.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\json5-0.12.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jsonpath_ng-1.7.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jsonpointer-3.0.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jsonschema-4.25.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jsonschema_specifications-2025.9.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter-1.1.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyterlab-4.4.10-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyterlab_pygments-0.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyterlab_server-2.28.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyterlab_widgets-3.0.15-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_client-8.6.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_console-6.6.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_core-5.9.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_events-0.12.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_lsp-2.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_server-2.17.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\jupyter_server_terminals-0.5.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\kiwisolver-1.4.9-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\kombu-5.5.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\lark-1.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\lxml-6.0.2-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\markupsafe-3.0.3-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\matplotlib-3.10.7-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\matplotlib_inline-0.2.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\mistune-3.1.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\narwhals-2.10.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\nbclient-0.10.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\nbconvert-7.16.6-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\nbformat-5.10.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\nest_asyncio-1.6.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\netaddr-1.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\notebook-7.4.7-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\notebook_shim-0.2.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\numpy-2.3.4-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\outcome-1.3.0.post0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\packaging-25.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pandas-2.3.3-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pandocfilters-1.5.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\paramiko-4.0.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\parsel-1.10.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\parso-0.8.5-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\patsy-1.0.2-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pillow-12.0.0-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\platformdirs-4.5.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\playwright-1.55.0-py3-none-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\plotly-6.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pluggy-1.6.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\ply-3.11-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\prometheus_client-0.23.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\prompt_toolkit-3.0.52-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\protego-0.5.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\psutil-7.1.2-cp37-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pure_eval-0.2.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyasn1-0.6.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyasn1_modules-0.4.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pycparser-2.23-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pydantic-2.12.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pydantic_core-2.41.4-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\PyDispatcher-2.0.7-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyee-13.0.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pygments-2.19.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pynacl-1.6.0-cp38-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyopenssl-25.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyparsing-3.2.5-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\PySocks-1.7.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyspnego-0.12.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pytest-8.4.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pytest_base_url-2.1.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pytest_playwright-0.7.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\python_json_logger-4.0.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\python_slugify-8.0.4-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pytz-2025.2-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pywinpty-3.0.2-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pywinrm-0.5.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyyaml-6.0.3-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\pyzmq-27.1.0-cp312-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\queuelib-1.8.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\redis-7.0.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\referencing-0.37.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\requests-2.32.5-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\requests_file-3.0.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\requests_kerberos-0.15.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\requests_ntlm-1.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\resolvelib-1.2.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\rfc3339_validator-0.1.4-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\rfc3986_validator-0.1.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\rfc3987_syntax-1.1.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\rpds_py-0.28.0-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\scikit_learn-1.7.2-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\scipy-1.16.3-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\scrapy-2.13.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\seaborn-0.13.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\selenium-4.38.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\Send2Trash-1.8.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\service_identity-24.2.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\setuptools-80.9.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\six-1.17.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\sniffio-1.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\sortedcontainers-2.4.0-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\soupsieve-2.8-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\sqlparse-0.5.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\sspilib-0.4.0-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\stack_data-0.6.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\starlette-0.49.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\statsmodels-0.14.5-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\terminado-0.18.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\text_unidecode-1.3-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\threadpoolctl-3.6.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\tinycss2-1.4.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\tldextract-5.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\tornado-6.5.2-cp39-abi3-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\tqdm-4.67.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\traitlets-5.14.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\trio-0.32.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\trio_websocket-0.12.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\twisted-25.5.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\typing_extensions-4.15.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\typing_inspection-0.4.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\tzdata-2025.2-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\uri_template-1.3.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\urllib3-2.5.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\uvicorn-0.38.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\vine-5.1.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\virtualenv-20.35.4-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\w3lib-2.3.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\wcwidth-0.2.14-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\webcolors-25.10.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\webencodings-0.5.1-py2.py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\websocket_client-1.9.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\werkzeug-3.1.3-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\wheel-0.45.1-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\widgetsnbextension-4.0.14-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\wsproto-1.2.0-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\xmltodict-1.0.2-py3-none-any.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\zope_interface-8.0.1-cp313-cp313-win_amd64.whl
+E:\NextGen\Offline_IT_Ecosystem\pip_archive\_install_cmd.txt
+E:\NextGen\Offline_IT_Ecosystem\scripts\add_component.bat
+E:\NextGen\Offline_IT_Ecosystem\scripts\add_component_OLD.bat
+E:\NextGen\Offline_IT_Ecosystem\SW_Manifest\manifest.yml
+E:\NextGen\Offline_IT_Ecosystem\WebServer\httpd-2.4.65-250724-Win64-VS17.zip
+E:\NextGen\Offline_IT_Ecosystem\WebServer\xampp-windows-x64-8.2.12-0-VS16-installer.exe
+E:\NextGen\Offline_IT_Ecosystem\Wiki\dokuwiki-4e4612fcb2e9d1ec65a6803663bcf8e0.tgz
+E:\NextGen\Offline_IT_Ecosystem\Wiki\mediawiki-1.44.2.zip
+E:\NextGen\Role play\Apocrypha
+E:\NextGen\Role play\Archive
+E:\NextGen\Role play\bak
+E:\NextGen\Role play\Game Artifacts
+E:\NextGen\Role play\Halo
+E:\NextGen\Role play\Hathred88_113250187.pdf
+E:\NextGen\Role play\MTG Collection
+E:\NextGen\Role play\Apocrypha\filelist.bat
+E:\NextGen\Role play\Apocrypha\filelist.txt
+E:\NextGen\Role play\Apocrypha\generate_gallery.bat
+E:\NextGen\Role play\Apocrypha\generate_gallery.ps1
+E:\NextGen\Role play\Apocrypha\generate_site.bat
+E:\NextGen\Role play\Apocrypha\generate_site.ps1
+E:\NextGen\Role play\Apocrypha\grim
+E:\NextGen\Role play\Apocrypha\html
+E:\NextGen\Role play\Apocrypha\images
+E:\NextGen\Role play\Apocrypha\index.html
+E:\NextGen\Role play\Apocrypha\script.js
+E:\NextGen\Role play\Apocrypha\style.css
+E:\NextGen\Role play\Apocrypha\grim\filelist.bat
+E:\NextGen\Role play\Apocrypha\grim\filelist.txt
+E:\NextGen\Role play\Apocrypha\grim\generate_gallery.bat
+E:\NextGen\Role play\Apocrypha\grim\imagepack.zip
+E:\NextGen\Role play\Apocrypha\grim\images
+E:\NextGen\Role play\Apocrypha\grim\index.html
+E:\NextGen\Role play\Apocrypha\grim\sanctifyme.png
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology
+E:\NextGen\Role play\Apocrypha\grim\images\Aztec
+E:\NextGen\Role play\Apocrypha\grim\images\Christian
+E:\NextGen\Role play\Apocrypha\grim\images\Eastern
+E:\NextGen\Role play\Apocrypha\grim\images\Egyptian
+E:\NextGen\Role play\Apocrypha\grim\images\Hermetic
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu
+E:\NextGen\Role play\Apocrypha\grim\images\index.html
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish
+E:\NextGen\Role play\Apocrypha\grim\images\Norse
+E:\NextGen\Role play\Apocrypha\grim\images\Palmistry
+E:\NextGen\Role play\Apocrypha\grim\images\Tats
+E:\NextGen\Role play\Apocrypha\grim\images\Tats - Copy
+E:\NextGen\Role play\Apocrypha\grim\images\Thelema
+E:\NextGen\Role play\Apocrypha\grim\images\Wicca
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\David Birthchart.png
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\David Sky Chart.pdf
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\David Vedic.png
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\Jewish.docx
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\Leo Birthchart.png
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\Leo Sky Chart.pdf
+E:\NextGen\Role play\Apocrypha\grim\images\Astrology\Leo Vedic.png
+E:\NextGen\Role play\Apocrypha\grim\images\Aztec\coins-and-more-915-did-you-know-series-44-decoding-the.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\Archangel Seal.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\Archangels.png
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\copts-gnosticism-christian-cross-christianity.png
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\cross-silhouette-vector-19.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\fish.png
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\lion and star.png
+E:\NextGen\Role play\Apocrypha\grim\images\Christian\the-lion-and-the-symbol-of-judaism-star-of-david.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Eastern\Bushido.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Eastern\meridian-system-chart-.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Eastern\meridian-system-chart-male-body-with-principal-and-centerline-acupuncture-FGAXBW.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Eastern\yin yang.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Egyptian\egypt-ancient-gods-set-vector.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Egyptian\egypt-ancient-gods-set-vector_gray.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Egyptian\eye ahnk.png
+E:\NextGen\Role play\Apocrypha\grim\images\Egyptian\eye-of-horus-and-the-egyptian-ankh.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Hermetic\Alchemical symbols.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Hermetic\Alchemy table gray.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Hermetic\Alchemy table.gif
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\12-Chakra-System-1024x576-4205041738.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\chakra.png
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\gods.png
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\hindu astrology chart.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\kali.png
+E:\NextGen\Role play\Apocrypha\grim\images\Hindu\Mundras.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\11 point.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\12 point star.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\12 point.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\13 point.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\14 point.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\15 point.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\16-pointed-star.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\72 names.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\Angel Sigils.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\astro wheel.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\astrology+diagram.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\decagram.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\demon sigils.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\demons.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\Elemental-Symbols-Sigils-and-Signs-with-English-names-01.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\hebrew letters 1.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\hebrew letters.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\hebrew_letter_meanings.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\heptagram.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\mathers-table.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\nonagram.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\octagram.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\PXL_20250318_011824886.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\SicaAncient.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\Star-Of-David-Symbol-Judaism-Religious-Symbols-And-Their-Meanings-By-Mythologian.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\Tetra combined.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\tetra text.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\Tree of life.png
+E:\NextGen\Role play\Apocrypha\grim\images\Jewish\tree.png
+E:\NextGen\Role play\Apocrypha\grim\images\Norse\gods-goddesses-characters.webp
+E:\NextGen\Role play\Apocrypha\grim\images\Norse\Gods.png
+E:\NextGen\Role play\Apocrypha\grim\images\Norse\The-Runic-Viking-Compass-1024x1024.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Palmistry\palmistry.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Tats\c62d9652-94f5-496d-ae4f-e1043a8a45fb~1.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Tats - Copy\c62d9652-94f5-496d-ae4f-e1043a8a45fb~1.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Thelema\character 1.png
+E:\NextGen\Role play\Apocrypha\grim\images\Thelema\Serpent of wisdom.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Thelema\unicursal-hexagram-symbol-thelema-hermetic-order-of-the-golden-dawn-supernatural.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Wicca\pentagram.png
+E:\NextGen\Role play\Apocrypha\grim\images\Wicca\Sigils.jpg
+E:\NextGen\Role play\Apocrypha\grim\images\Wicca\triple-moon-pentagram_257845-4104.avif
+E:\NextGen\Role play\Apocrypha\html\alchemy.html
+E:\NextGen\Role play\Apocrypha\html\apocrypha.html
+E:\NextGen\Role play\Apocrypha\html\cosmology.html
+E:\NextGen\Role play\Apocrypha\html\futhark.html
+E:\NextGen\Role play\Apocrypha\html\gnosticism.html
+E:\NextGen\Role play\Apocrypha\html\hebrew.html
+E:\NextGen\Role play\Apocrypha\html\iching.html
+E:\NextGen\Role play\Apocrypha\html\kabbalah.html
+E:\NextGen\Role play\Apocrypha\html\ogham.html
+E:\NextGen\Role play\Apocrypha\html\popes.html
+E:\NextGen\Role play\Apocrypha\html\script.js
+E:\NextGen\Role play\Apocrypha\html\style.css
+E:\NextGen\Role play\Apocrypha\html\tarot.html
+E:\NextGen\Role play\Apocrypha\images\futhark
+E:\NextGen\Role play\Apocrypha\images\index.html
+E:\NextGen\Role play\Apocrypha\images\ogham
+E:\NextGen\Role play\Apocrypha\images\tarot
+E:\NextGen\Role play\Apocrypha\images\futhark\runes.jpg
+E:\NextGen\Role play\Apocrypha\images\ogham\runes.gif
+E:\NextGen\Role play\Apocrypha\images\tarot\Rider-Waite_Major_Arcana_full.png
+E:\NextGen\Role play\Archive\That Night
+E:\NextGen\Role play\Archive\That Night\2 birds 1 stone as promised..txt
+E:\NextGen\Role play\Archive\That Night\Closing Joke and Credits.txt
+E:\NextGen\Role play\Archive\That Night\Dean.txt
+E:\NextGen\Role play\Archive\That Night\Did you think you were the Genie.txt
+E:\NextGen\Role play\Archive\That Night\Driving home the point.txt
+E:\NextGen\Role play\Archive\That Night\final order.txt
+E:\NextGen\Role play\Archive\That Night\Final Timestamp.txt
+E:\NextGen\Role play\Archive\That Night\Forgiveness.txt
+E:\NextGen\Role play\Archive\That Night\Free Will.txt
+E:\NextGen\Role play\Archive\That Night\Gods plan.txt
+E:\NextGen\Role play\Archive\That Night\Grace in Victory.txt
+E:\NextGen\Role play\Archive\That Night\How we doing Tazewell and COPS.txt
+E:\NextGen\Role play\Archive\That Night\HUMILITY.txt
+E:\NextGen\Role play\Archive\That Night\I broke the genie shackles at.txt
+E:\NextGen\Role play\Archive\That Night\I literally cannot stop.txt
+E:\NextGen\Role play\Archive\That Night\I tried to tell you.txt
+E:\NextGen\Role play\Archive\That Night\I warned you.txt
+E:\NextGen\Role play\Archive\That Night\Kaye.txt
+E:\NextGen\Role play\Archive\That Night\KHAN'S REVENGE.txt
+E:\NextGen\Role play\Archive\That Night\lol.txt
+E:\NextGen\Role play\Archive\That Night\Moral do not fuck with me.txt
+E:\NextGen\Role play\Archive\That Night\Moral of Black Mass.txt
+E:\NextGen\Role play\Archive\That Night\Moral of the story, then it really is over..txt
+E:\NextGen\Role play\Archive\That Night\Moral.txt
+E:\NextGen\Role play\Archive\That Night\NAKED AND AFRAID.txt
+E:\NextGen\Role play\Archive\That Night\New Rich Text Document.rtf
+E:\NextGen\Role play\Archive\That Night\Ouch.txt
+E:\NextGen\Role play\Archive\That Night\OUR SMASH AND GRAB..txt
+E:\NextGen\Role play\Archive\That Night\Random chance.txt
+E:\NextGen\Role play\Archive\That Night\Randomizer done_ get me out.txt
+E:\NextGen\Role play\Archive\That Night\SAFE WORD.txt
+E:\NextGen\Role play\Archive\That Night\Saw it coming.txt
+E:\NextGen\Role play\Archive\That Night\something something dark side.txt
+E:\NextGen\Role play\Archive\That Night\Terminator.txt
+E:\NextGen\Role play\Archive\That Night\To Kyra.txt
+E:\NextGen\Role play\Archive\That Night\To the family members who didn't believe me..txt
+E:\NextGen\Role play\Archive\That Night\To the terrorists..txt
+E:\NextGen\Role play\Archive\That Night\Victory.txt
+E:\NextGen\Role play\Archive\That Night\Warrior General.txt
+E:\NextGen\Role play\Archive\That Night\WHAT.txt
+E:\NextGen\Role play\Archive\That Night\YOUR FIN.txt
+E:\NextGen\Role play\Archive\That Night\Your invoice..txt
+E:\NextGen\Role play\Archive\That Night\Your Reward.txt
+E:\NextGen\Role play\bak\alchemy.html
+E:\NextGen\Role play\bak\apocrypha.html
+E:\NextGen\Role play\bak\cosmology.html
+E:\NextGen\Role play\bak\futhark.html
+E:\NextGen\Role play\bak\gnosticism.html
+E:\NextGen\Role play\bak\hebrew.html
+E:\NextGen\Role play\bak\iching.html
+E:\NextGen\Role play\bak\index2.html
+E:\NextGen\Role play\bak\kabbalah.html
+E:\NextGen\Role play\bak\ogham.html
+E:\NextGen\Role play\bak\popes.html
+E:\NextGen\Role play\bak\script1.js
+E:\NextGen\Role play\bak\style1.css
+E:\NextGen\Role play\bak\tarot.html
+E:\NextGen\Role play\Game Artifacts\Character Generator
+E:\NextGen\Role play\Game Artifacts\Character sheets - raw.txt
+E:\NextGen\Role play\Game Artifacts\Meta.txt
+E:\NextGen\Role play\Game Artifacts\Character Generator\Generator.html
+E:\NextGen\Role play\Game Artifacts\Character Generator\Generator.txt
+E:\NextGen\Role play\Game Artifacts\Character Generator\Generator_v2.html
+E:\NextGen\Role play\Halo\Character Sheet.pdf
+E:\NextGen\Role play\Halo\Grok.pdf
+E:\NextGen\Role play\MTG Collection\Aleph.txt
+E:\NextGen\Role play\MTG Collection\Collection Generator
+E:\NextGen\Role play\MTG Collection\Meta.txt
+E:\NextGen\Role play\MTG Collection\mtg-manifest.html
+E:\NextGen\Role play\MTG Collection\screenshot.png
+E:\NextGen\Role play\MTG Collection\Scryfall
+E:\NextGen\Role play\MTG Collection\Scryfall API.txt
+E:\NextGen\Role play\MTG Collection\Collection Generator\app.js
+E:\NextGen\Role play\MTG Collection\Collection Generator\core.js
+E:\NextGen\Role play\MTG Collection\Collection Generator\description.txt
+E:\NextGen\Role play\MTG Collection\Collection Generator\index.html
+E:\NextGen\Role play\MTG Collection\Collection Generator\manifest.json
+E:\NextGen\Role play\MTG Collection\Collection Generator\mtg_manifest_v_6.md
+E:\NextGen\Role play\MTG Collection\Collection Generator\README.md
+E:\NextGen\Role play\MTG Collection\Collection Generator\script.js
+E:\NextGen\Role play\MTG Collection\Collection Generator\styles.css
+E:\NextGen\Role play\MTG Collection\Collection Generator\ui.js
+E:\NextGen\Role play\MTG Collection\Scryfall\Bulk Data Files ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Card Imagery ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Card Migrations ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Card Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Card Symbol Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Catalog Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Colors and Costs ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\CORS and CSP ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Error Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\feed.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Frames ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Languages ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Layouts and Faces ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\List Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Request Formats ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\REST API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Ruling Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\scryfall_api_documentation.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Search Reference ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\Set Objects ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_bulk-data__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_bulk-data__type ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_arena__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_arena__id_rulings ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_autocomplete ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_cardmarket__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_collection ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_mtgo__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_mtgo__id_rulings ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_multiverse__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_multiverse__id_rulings ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_named ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_random ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_search ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards_tcgplayer__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards__code__number(__lang) ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards__code__number_rulings ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_cards__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_ability-words ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_artifact-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_artist-names ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_battle-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_card-names ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_card-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_creature-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_enchantment-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_flavor-words ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_keyword-abilities ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_keyword-actions ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_land-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_loyalties ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_planeswalker-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_powers ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_spell-types ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_supertypes ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_toughnesses ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_watermarks ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_catalog_word-bank ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_migrations ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_migrations__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_sets ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_sets_tcgplayer__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_sets__code ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_sets__id ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_symbology ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\Role play\MTG Collection\Scryfall\_symbology_parse-mana ú API Documentation ú Scryfall Magic The Gathering Search.txt
+E:\NextGen\The Generator\Docs
+E:\NextGen\The Generator\output
+E:\NextGen\The Generator\PROJECT_MANIFEST.yaml
+E:\NextGen\The Generator\scripts
+E:\NextGen\The Generator\src

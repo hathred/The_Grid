@@ -1,0 +1,18 @@
+TO DO:
+
+D-301: 
+Ensure Linux Parity!
+Download additional Kali ISOs for all devices.
+4. OSINT Archives	180_Open_Source_Intelligence\Datasets	Archive large data sets essential for offline security analysis: Rockyou.txt (or similar large common password lists), and public domain breach data samples (if legally and safely permitted for educational use).
+
+D-302: Blockchain & Crypto (Component 120)
+Expand to additional currencies
+3. Documentation	120_Blockchain_Crypto\Docs	Mirror extensive, full-stack blockchain documentation (e.g., Ethereum docs, Solidity docs, Web3.js offline documentation).
+
+D-304
+2. Assets & Art Tools	140_Game_Development\Assets	Download public domain or CC0 (Creative Commons Zero) 2D sprite sheets, 3D model packs (e.g., from OpenGameArt), and full documentation for art tools like Blender and GIMP.
+3. Development SDKs140_Game_Development\SDKsMirror the full SDKs for any required cross-compilation targets (if planning to build for Android/iOS, etc., although Windows and desktop builds will be the focus).
+
+D-305
+1. Node/NPM Mirror	160_Mirror_Tool_Dependencies\Node	Download and set up Verdaccio (a private npm registry) and mirror core Node.js packages (Express, React/Vue CLI, Babel, etc.) into its local cache.
+2. Ruby/Java Mirrors	160_Mirror_Tool_Dependencies\Other	Set up scripts to mirror core RubyGems and essential Maven/Gradle dependencies (if you use Java for your java or Grok components)

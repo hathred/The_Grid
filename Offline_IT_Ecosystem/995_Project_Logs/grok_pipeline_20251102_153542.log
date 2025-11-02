@@ -1,0 +1,23 @@
+2025-11-02 15:35:42,836 [INFO] Pipeline initialized (dry_run=False, force=False)
+2025-11-02 15:35:42,837 [INFO] ============================================================
+2025-11-02 15:35:42,838 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:35:42,839 [INFO] ============================================================
+2025-11-02 15:35:42,840 [INFO] ============================================================
+2025-11-02 15:35:42,841 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:35:42,841 [INFO] ============================================================
+2025-11-02 15:35:42,842 [INFO] Discovered 1 files in 1 manifest-approved dirs
+2025-11-02 15:35:42,843 [INFO]   -> Skipped (up to date): DIRECTORY_MANIFEST.md
+2025-11-02 15:35:42,843 [INFO] ============================================================
+2025-11-02 15:35:42,843 [INFO] EXECUTION SUMMARY
+2025-11-02 15:35:42,844 [INFO] ============================================================
+2025-11-02 15:35:42,844 [INFO] Processed:   0
+2025-11-02 15:35:42,844 [INFO] Skipped:     1
+2025-11-02 15:35:42,845 [INFO] Failed:      0
+2025-11-02 15:35:42,845 [INFO] Space saved: 0.00 MB
+2025-11-02 15:35:42,846 [INFO] ============================================================
+2025-11-02 15:35:43,018 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-11-02 15:35:43,019 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-02 15:35:47,793 [INFO] 127.0.0.1 - - [02/Nov/2025 15:35:47] "GET / HTTP/1.1" 200 -
+2025-11-02 15:35:49,811 [INFO] 127.0.0.1 - - [02/Nov/2025 15:35:49] "GET /view/000_Project_Manifests/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -
+2025-11-02 15:36:04,071 [INFO] 127.0.0.1 - - [02/Nov/2025 15:36:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -

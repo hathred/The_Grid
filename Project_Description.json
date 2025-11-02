@@ -1,0 +1,172 @@
+{
+  "project_name": "Offline IT Ecosystem (NextGen)",
+  "project_version": "1.0.0",
+  "project_goal": "To establish a comprehensive, self-contained, and air-gapped IT infrastructure and development environment, housing all necessary tools, dependencies, data, and knowledge to operate independently of external networks or the public internet.",
+  "project_scope": "The ecosystem covers infrastructure, data management, security, DevOps, content generation, and application development across multiple technology stacks.",
+  "key_technologies_and_domains": [
+    "Data Archiving (RDBMS/NoSQL)",
+    "Source Code Management (SCM)",
+    "Identity & Access Management (IDP)",
+    "Web/Frontend Serving",
+    "Containerization & Orchestration",
+    "CI/CD & DevOps",
+    "System Monitoring & Logging",
+    "Messaging/IoT (MQTT)",
+    "Cybersecurity & Pentesting",
+    "Blockchain Technology",
+    "AI/LLM Development Tools ('Grok', 'The Generator')"
+  ],
+  "modules": [
+    {
+      "id": "000",
+      "title": "Project Manifests and Metadata",
+      "description": "Central repository for core project documentation, including the project overview, development roadmap, and global configuration manifests (e.g., SW_Manifests).",
+      "contents": ["PROJECT_OVERVIEW.md", "Roadmap.json", "manifest.yml"]
+    },
+    {
+      "id": "010",
+      "title": "Data Persistence (RDBMS & NoSQL)",
+      "description": "Archives for installation files and documentation pertaining to relational and non-relational database systems, crucial for local data storage and application backends.",
+      "alias": "offline_db"
+    },
+    {
+      "id": "020",
+      "title": "Source Code Management (SCM)",
+      "description": "Resources and documentation for local version control systems.",
+      "alias": "Git"
+    },
+    {
+      "id": "030",
+      "title": "Authentication and Identity Management",
+      "description": "Archives and documentation for local Identity Provider (IDP) solutions necessary for securing internal services and applications.",
+      "alias": "idp"
+    },
+    {
+      "id": "040",
+      "title": "Web Server & Frontend Resources",
+      "description": "Installation files and dependencies for local web servers and fundamental frontend technologies (e.g., HTML dashboard files).",
+      "alias": "WebServer"
+    },
+    {
+      "id": "050",
+      "title": "Network Core Services (Outranet)",
+      "description": "Components and stubs for the 'Outranet' local network services, simulating a comprehensive network ecosystem within the confined environment.",
+      "alias": "outranet"
+    },
+    {
+      "id": "060",
+      "title": "Virtualization and Containerization",
+      "description": "Tools and documentation for managing virtual machines, Docker containers, and Kubernetes/container orchestration, ensuring portable deployment.",
+      "aliases": ["orchestrator", "Containers"]
+    },
+    {
+      "id": "070",
+      "title": "DevOps / CI-CD Pipelines",
+      "description": "Archived tools (like Jenkins installers) and guides for implementing Continuous Integration and Continuous Delivery processes offline.",
+      "alias": "cicd"
+    },
+    {
+      "id": "080",
+      "title": "Observability and ELK Stack",
+      "description": "Resources for system monitoring, logging, and metrics aggregation tools (e.g., simulating an ELK Stack setup).",
+      "alias": "Monitoring"
+    },
+    {
+      "id": "090",
+      "title": "Messaging and IoT Broker",
+      "description": "Assets for setting up local message queuing and IoT broker services, primarily MQTT.",
+      "alias": "MQTT"
+    },
+    {
+      "id": "100",
+      "title": "Dependency and Runtime Archives",
+      "description": "Offline repositories for core language runtimes and package managers (e.g., Java, Node.js, PHP, JavaScript, Python's pip archive).",
+      "aliases": ["java", "node", "php", "javascript", "pip_archive"]
+    },
+    {
+      "id": "105",
+      "title": "System Automation Scripts",
+      "description": "Collection of batch (.bat) and general-purpose scripts for file listing, generation, and environment management.",
+      "alias": "bat_files"
+    },
+    {
+      "id": "110",
+      "title": "Cybersecurity and Penetration Testing",
+      "description": "Tools, guides, and archives related to network security, vulnerability assessment, and ethical hacking.",
+      "alias": "Cybersecurity_Pentest"
+    },
+    {
+      "id": "120",
+      "title": "Blockchain and Cryptography",
+      "description": "Educational and archival materials on decentralized technologies, cryptocurrencies, and cryptographic principles.",
+      "alias": "Blockchain_Crypto"
+    },
+    {
+      "id": "130",
+      "title": "MUD / IRC Community Systems",
+      "description": "Resources for establishing and managing text-based community and gaming platforms (Multi-User Dungeon, Internet Relay Chat).",
+      "alias": "MUD_IRC_Community"
+    },
+    {
+      "id": "140",
+      "title": "Game Development Assets",
+      "description": "Dependencies, engines, and toolkits for offline game development projects.",
+      "alias": "Game_Development"
+    },
+    {
+      "id": "150",
+      "title": "Offline Chat and Messaging",
+      "description": "Self-hosted solutions and clients for private, air-gapped communication systems.",
+      "alias": "Offline_Chat_Messaging"
+    },
+    {
+      "id": "160",
+      "title": "Mirror Tool Dependencies",
+      "description": "General-purpose mirrored software installers, libraries, and dependencies not covered by specific runtime archives (100).",
+      "alias": "Mirror_Tool_Dependencies"
+    },
+    {
+      "id": "170",
+      "title": "OS Security Baselines",
+      "description": "Guides, scripts, and configurations for establishing secure, hardened Operating System baselines.",
+      "alias": "OS_Security_Baselines"
+    },
+    {
+      "id": "180",
+      "title": "Open Source Intelligence (OSINT)",
+      "description": "A collection of public data sources, tools, and methodologies for open-source information gathering, archived for offline use.",
+      "alias": "Open_Source_Intelligence"
+    },
+    {
+      "id": "190",
+      "title": "Local CDN and Caching",
+      "description": "Mechanisms and files for local content delivery, caching, and serving common web assets internally.",
+      "alias": "Local_CDN_Caching"
+    },
+    {
+      "id": "195",
+      "title": "Documentation and Knowledge Base",
+      "description": "Consolidated general documentation, project notes, and a wiki/knowledge repository.",
+      "aliases": ["Doc", "Wiki"]
+    },
+    {
+      "id": "200",
+      "title": "Content and Data Sources",
+      "description": "Specific, niche data archives and content-driven collections, such as 'Religion' texts and 'Role play' data (e.g., Scryfall MTG API documentation).",
+      "aliases": ["Religion", "Role_play"]
+    },
+    {
+      "id": "210",
+      "title": "Project Development Tools (Generators/Grok)",
+      "description": "Internal tools, scripts, and applications ('The Generator', 'Grok') developed for project management, data summarization, and content creation.",
+      "aliases": ["The_Generator", "Grok"],
+      "sub_components": ["Code_of_the_Larpers", "Summarize", "yaml_pretty_print.py"]
+    }
+  ],
+  "system_automation_and_logging": {
+    "automation_scripts_path": "990_Project_Automation",
+    "automation_scripts": ["add_component.bat", "add_component_OLD.bat", "filelist.bat", "outranet_stubs.bat"],
+    "logging_path": "995_Project_Logs",
+    "logging_files": ["sort_log.txt"]
+  }
+}

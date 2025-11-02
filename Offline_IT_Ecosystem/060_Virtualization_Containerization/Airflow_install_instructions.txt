@@ -1,0 +1,1 @@
+https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html#installation-from-pypi

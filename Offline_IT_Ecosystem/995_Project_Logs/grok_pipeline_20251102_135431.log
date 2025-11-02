@@ -1,0 +1,93 @@
+2025-11-02 13:54:31,420 [INFO] Pipeline initialized (dry_run=True, force=False)
+2025-11-02 13:54:31,420 [INFO] ============================================================
+2025-11-02 13:54:31,421 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 13:54:31,422 [INFO] ============================================================
+2025-11-02 13:54:31,422 [WARNING] DRY RUN MODE - No files will be written
+2025-11-02 13:54:31,440 [INFO] Discovered 39 files in 28 manifest-approved dirs
+2025-11-02 13:54:31,441 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\manifest.yml
+2025-11-02 13:54:31,472 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\manifest.yml - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,472 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,493 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,493 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\SETUP_WINDOWS.md
+2025-11-02 13:54:31,504 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\SETUP_WINDOWS.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,505 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\010_Data_RDBMS_NoSQL\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,519 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\010_Data_RDBMS_NoSQL\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,519 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\Gitlab_install_instructions.txt
+2025-11-02 13:54:31,526 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\Gitlab_install_instructions.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,526 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,540 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,540 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\030_Auth_Identity_Management\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,552 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\030_Auth_Identity_Management\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,552 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\040_Web_Server_Frontend\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,564 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\040_Web_Server_Frontend\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,564 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\050_Network_Core_Services\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,576 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\050_Network_Core_Services\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,576 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Airflow_install_instructions.txt
+2025-11-02 13:54:31,582 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Airflow_install_instructions.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,582 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Prefect_install_instructions.txt
+2025-11-02 13:54:31,588 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Prefect_install_instructions.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,589 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,601 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,601 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\070_DevOps_CI_CD\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,610 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\070_DevOps_CI_CD\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,611 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\080_Observability_ELK_Stack\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,622 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\080_Observability_ELK_Stack\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,622 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\090_Messaging_IoT_Broker\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,635 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\090_Messaging_IoT_Broker\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,635 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,646 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,647 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,658 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,658 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,668 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,668 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,679 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,680 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,689 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,690 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,699 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,700 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node__docker_instructions.txt
+2025-11-02 13:54:31,707 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node__docker_instructions.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,707 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,717 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,718 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,727 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,728 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets\OhShINT.txt
+2025-11-02 13:54:31,734 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets\OhShINT.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,734 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,746 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,746 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,755 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,756 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,766 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,766 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,777 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,777 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,787 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,788 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\auto_download_manifest.json
+2025-11-02 13:54:31,795 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\auto_download_manifest.json - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,795 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\config.yaml
+2025-11-02 13:54:31,798 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\config.yaml - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,799 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\grok_config_yaml.txt
+2025-11-02 13:54:31,823 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\grok_config_yaml.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,823 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\requirements.txt
+2025-11-02 13:54:31,825 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\requirements.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,825 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,836 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,836 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\TEMPLATE_DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,850 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\TEMPLATE_DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,850 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\project_summary.md
+2025-11-02 13:54:31,861 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\project_summary.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,861 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\filelist_post_mirroring.txt
+2025-11-02 13:54:31,884 [ERROR] Failed to load E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\filelist_post_mirroring.txt: 'utf-8' codec can't decode byte 0xfa in position 39204: invalid start byte
+2025-11-02 13:54:31,885 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\filelist_post_mirroring.txt - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,886 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\DIRECTORY_MANIFEST.md
+2025-11-02 13:54:31,897 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'clean_and_standardize'
+2025-11-02 13:54:31,898 [INFO] ============================================================
+2025-11-02 13:54:31,898 [INFO] EXECUTION SUMMARY
+2025-11-02 13:54:31,898 [INFO] ============================================================
+2025-11-02 13:54:31,899 [INFO] Processed:   0
+2025-11-02 13:54:31,899 [INFO] Skipped:     0
+2025-11-02 13:54:31,900 [INFO] Failed:      39
+2025-11-02 13:54:31,901 [INFO] Space saved: 0.00 MB
+2025-11-02 13:54:31,901 [INFO] ============================================================

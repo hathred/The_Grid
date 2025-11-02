@@ -1,0 +1,31 @@
+{
+  "project_name": "Offline IT Ecosystem (NextGen)",
+  "project_goal": "To create a comprehensive, self-contained, and mirrored IT environment that aggregates critical technical bundles (Cybersecurity, Blockchain, Game Dev, etc.), content archives, and development tools for offline use.",
+  "project_organization": {
+    "standard": "The project uses a **Numerical and Categorical Directory Structure** to standardize file and tool locations. This structure is enforced by an automation script.",
+    "automation_script": {
+      "file": "sort_ecosystem.bat",
+      "purpose": "This Windows Batch/PowerShell script organizes all top-level folders into their respective numbered categories (e.g., `Git` becomes `020_SCM_Version_Control`). **Understanding this script is key** to knowing where files are located."
+    }
+  },
+  "key_architectural_components": [
+    {"category_code": "010", "area": "Data (RDBMS/NoSQL)", "details": "Archives and setup files for databases like PostgreSQL, MongoDB, and local server stacks (WAMP/XAMPP implied)."},
+    {"category_code": "020", "area": "SCM/Version Control", "details": "Tools and documentation for Git."},
+    {"category_code": "040/050", "area": "Web/Networking", "details": "Web server components and local networking service stubs (the 'outranet')."},
+    {"category_code": "060/070", "area": "DevOps/Containers", "details": "Virtualization, Orchestration (Kubernetes/Docker implied), and CI/CD tools (Jenkins implied)."},
+    {"category_code": "100", "area": "Dependency/Runtimes", "details": "Archives for required language runtimes and packages (Java, Node.js, PHP, Python via `pip_archive`)."},
+    {"category_code": "110-180", "area": "Specialized Bundles", "details": "Self-contained collections of resources, tools, and documentation for niche topics (Cybersecurity, Blockchain, MUD/IRC, etc.)."}
+  ],
+  "onboarding_workflow": {
+    "step_1_architecture": "Review the full numerical folder structure to understand the standard hierarchy.",
+    "step_2_metadata": "Check `000_Project_Manifests` (for `PROJECT_MANIFEST.yaml` and `manifest.yml`) to understand project governance and versioning.",
+    "step_3_documentation": "Consult the `195_Documentation_Knowledge_Base` folder for general project context, setup instructions, and the `PROJECT_OVERVIEW.md` if available.",
+    "step_4_automation": "Familiarize yourself with the system automation scripts in `990_Project_Automation` (`add_component.bat`, `filelist.bat`) for common tasks."
+  },
+  "critical_files_for_review": [
+    {"filename": "sort_ecosystem.bat", "purpose": "Defines the canonical directory structure."},
+    {"filename": "Master_filelist.txt", "purpose": "A complete inventory of all files in the ecosystem."},
+    {"filename": "PROJECT_MANIFEST.yaml", "purpose": "Likely contains metadata about the project components and versions."},
+    {"filename": "Roadmap.json", "purpose": "The planned direction and feature list for future development."}
+  ]
+}

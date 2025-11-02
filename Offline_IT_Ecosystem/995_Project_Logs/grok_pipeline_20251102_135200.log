@@ -1,0 +1,92 @@
+2025-11-02 13:52:00,734 [INFO] Pipeline initialized (dry_run=True, force=False)
+2025-11-02 13:52:00,734 [INFO] ============================================================
+2025-11-02 13:52:00,735 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 13:52:00,736 [INFO] ============================================================
+2025-11-02 13:52:00,736 [WARNING] DRY RUN MODE - No files will be written
+2025-11-02 13:52:00,755 [INFO] Discovered 39 files in 28 manifest-approved dirs
+2025-11-02 13:52:00,755 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\manifest.yml
+2025-11-02 13:52:00,756 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\manifest.yml - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,756 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,757 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,757 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\SETUP_WINDOWS.md
+2025-11-02 13:52:00,758 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\000_Project_Manifests\SETUP_WINDOWS.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,758 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\010_Data_RDBMS_NoSQL\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,758 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\010_Data_RDBMS_NoSQL\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,759 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\Gitlab_install_instructions.txt
+2025-11-02 13:52:00,759 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\Gitlab_install_instructions.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,760 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,760 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,761 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\030_Auth_Identity_Management\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,761 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\030_Auth_Identity_Management\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,762 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\040_Web_Server_Frontend\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,762 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\040_Web_Server_Frontend\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,762 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\050_Network_Core_Services\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,763 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\050_Network_Core_Services\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,763 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Airflow_install_instructions.txt
+2025-11-02 13:52:00,764 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Airflow_install_instructions.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,764 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Prefect_install_instructions.txt
+2025-11-02 13:52:00,765 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\Prefect_install_instructions.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,767 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,767 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,768 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\070_DevOps_CI_CD\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,768 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\070_DevOps_CI_CD\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,768 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\080_Observability_ELK_Stack\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,769 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\080_Observability_ELK_Stack\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,769 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\090_Messaging_IoT_Broker\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,770 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\090_Messaging_IoT_Broker\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,770 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,771 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,771 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,772 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\110_Cybersecurity_Pentest\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,772 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,773 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\120_Blockchain_Crypto\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,773 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,774 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\130_MUD_IRC_Community\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,774 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,774 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\140_Game_Development\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,775 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,775 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\150_Offline_Chat_Messaging\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,776 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node__docker_instructions.txt
+2025-11-02 13:52:00,776 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\NODE\node__docker_instructions.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,777 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,777 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\160_Mirror_Tool_Dependencies\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,778 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,778 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\170_OS_Security_Baselines\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,778 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets\OhShINT.txt
+2025-11-02 13:52:00,779 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\Datasets\OhShINT.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,779 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,780 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\180_Open_Source_Intelligence\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,782 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,782 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\190_Local_CDN_Caching\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,783 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,783 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,783 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,784 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,784 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,785 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,785 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\auto_download_manifest.json
+2025-11-02 13:52:00,786 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\auto_download_manifest.json - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,786 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\config.yaml
+2025-11-02 13:52:00,787 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\config.yaml - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,787 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\grok_config_yaml.txt
+2025-11-02 13:52:00,788 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\grok_config_yaml.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,788 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\requirements.txt
+2025-11-02 13:52:00,789 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\requirements.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,789 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,790 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,790 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\TEMPLATE_DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,790 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\TEMPLATE_DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,791 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\project_summary.md
+2025-11-02 13:52:00,791 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\990_Project_Automation\Pipeline\project_summary.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,792 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\filelist_post_mirroring.txt
+2025-11-02 13:52:00,792 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\filelist_post_mirroring.txt - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,793 [INFO] Processing: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\DIRECTORY_MANIFEST.md
+2025-11-02 13:52:00,793 [ERROR]   -> Failed: E:\NextGen\Offline_IT_Ecosystem\995_Project_Logs\DIRECTORY_MANIFEST.md - 'DataCleaner' object has no attribute 'load_raw_data'
+2025-11-02 13:52:00,793 [INFO] ============================================================
+2025-11-02 13:52:00,794 [INFO] EXECUTION SUMMARY
+2025-11-02 13:52:00,794 [INFO] ============================================================
+2025-11-02 13:52:00,795 [INFO] Processed:   0
+2025-11-02 13:52:00,795 [INFO] Skipped:     0
+2025-11-02 13:52:00,796 [INFO] Failed:      39
+2025-11-02 13:52:00,798 [INFO] Space saved: 0.00 MB
+2025-11-02 13:52:00,798 [INFO] ============================================================

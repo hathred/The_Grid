@@ -1,0 +1,25 @@
+2025-11-02 15:50:12,350 [INFO] Pipeline initialized (dry_run=False, force=False)
+2025-11-02 15:50:12,351 [INFO] ============================================================
+2025-11-02 15:50:12,352 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:50:12,353 [INFO] ============================================================
+2025-11-02 15:50:12,354 [INFO] ============================================================
+2025-11-02 15:50:12,354 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 15:50:12,355 [INFO] ============================================================
+2025-11-02 15:50:12,356 [INFO] Discovered 1 files in 1 manifest-approved dirs
+2025-11-02 15:50:12,356 [INFO]   -> Skipped (up to date): DIRECTORY_MANIFEST.md
+2025-11-02 15:50:12,357 [INFO] ============================================================
+2025-11-02 15:50:12,357 [INFO] EXECUTION SUMMARY
+2025-11-02 15:50:12,357 [INFO] ============================================================
+2025-11-02 15:50:12,358 [INFO] Processed:   0
+2025-11-02 15:50:12,358 [INFO] Skipped:     1
+2025-11-02 15:50:12,359 [INFO] Failed:      0
+2025-11-02 15:50:12,359 [INFO] Space saved: 0.00 MB
+2025-11-02 15:50:12,359 [INFO] ============================================================
+2025-11-02 15:50:12,599 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-11-02 15:50:12,599 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-02 15:50:17,977 [INFO] 127.0.0.1 - - [02/Nov/2025 15:50:17] "GET / HTTP/1.1" 200 -
+2025-11-02 15:50:19,041 [INFO] 127.0.0.1 - - [02/Nov/2025 15:50:19] "GET /view/000_Project_Manifests/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -
+2025-11-02 15:50:20,980 [INFO] 127.0.0.1 - - [02/Nov/2025 15:50:20] "GET / HTTP/1.1" 200 -
+2025-11-02 15:50:22,113 [INFO] 127.0.0.1 - - [02/Nov/2025 15:50:22] "GET /view/000_Project_Manifests/manifest.yml.dml.b64 HTTP/1.1" 200 -
+2025-11-02 15:50:24,635 [INFO] 127.0.0.1 - - [02/Nov/2025 15:50:24] "GET /view/010_Data_RDBMS_NoSQL/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -

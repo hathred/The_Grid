@@ -1,0 +1,27 @@
+2025-11-02 16:03:11,333 [INFO] Pipeline initialized (dry_run=False, force=False)
+2025-11-02 16:03:11,335 [INFO] ============================================================
+2025-11-02 16:03:11,335 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 16:03:11,337 [INFO] ============================================================
+2025-11-02 16:03:11,338 [INFO] ============================================================
+2025-11-02 16:03:11,339 [INFO] GROK: SUMMARIZE - DML PIPELINE EXECUTION
+2025-11-02 16:03:11,339 [INFO] ============================================================
+2025-11-02 16:03:11,340 [INFO] Discovered 1 files in 1 manifest-approved dirs
+2025-11-02 16:03:11,341 [INFO]   -> Skipped (up to date): DIRECTORY_MANIFEST.md
+2025-11-02 16:03:11,341 [INFO] ============================================================
+2025-11-02 16:03:11,342 [INFO] EXECUTION SUMMARY
+2025-11-02 16:03:11,342 [INFO] ============================================================
+2025-11-02 16:03:11,342 [INFO] Processed:   0
+2025-11-02 16:03:11,343 [INFO] Skipped:     1
+2025-11-02 16:03:11,343 [INFO] Failed:      0
+2025-11-02 16:03:11,343 [INFO] Space saved: 0.00 MB
+2025-11-02 16:03:11,344 [INFO] ============================================================
+2025-11-02 16:03:11,548 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-11-02 16:03:11,549 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-02 16:03:16,561 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:16] "GET / HTTP/1.1" 200 -
+2025-11-02 16:03:17,801 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:17] "GET /view/000_Project_Manifests/manifest.yml.dml.b64 HTTP/1.1" 200 -
+2025-11-02 16:03:26,125 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:26] "GET /view/000_Project_Manifests/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -
+2025-11-02 16:03:37,637 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:37] "GET /view/010_Data_RDBMS_NoSQL/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -
+2025-11-02 16:03:42,043 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:42] "GET /view/000_Project_Manifests/manifest.yml.dml.b64 HTTP/1.1" 200 -
+2025-11-02 16:03:59,063 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:59] "GET / HTTP/1.1" 200 -
+2025-11-02 16:03:59,984 [INFO] 127.0.0.1 - - [02/Nov/2025 16:03:59] "GET /view/000_Project_Manifests/DIRECTORY_MANIFEST.md.dml.b64 HTTP/1.1" 200 -

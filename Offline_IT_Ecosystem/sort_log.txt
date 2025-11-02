@@ -1,0 +1,88 @@
+Sorting started at 2025-10-31 20:41:06
+Defining folder structure mapping...
+[PROCESSING] offline_db -> 010_Data_RDBMS_NoSQL
+WARNING: File not found during move (skip): instructions.txt. Error: [WinError 3] The system cannot find the path specified
+WARNING: File not found during move (skip): mongodb-windows-x86_64-8.2.1-signed.msi. Error: [WinError 3] The system cannot find the path specified
+WARNING: File not found during move (skip): postgresql-18.0-2-windows-x64.exe. Error: [WinError 3] The system cannot find the path specified
+WARNING: File not found during move (skip): wampserver3.3.7_x64.exe. Error: [WinError 3] The system cannot find the path specified
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\offline_db to E:\NextGen\Offline_IT_Ecosystem\010_Data_RDBMS_NoSQL completed.
+ERROR: Could not remove source directory offline_db: [WinError 145] The directory is not empty: 'E:\\NextGen\\Offline_IT_Ecosystem\\offline_db'
+[PROCESSING] Git -> 020_SCM_Version_Control
+Created directory: 020_SCM_Version_Control
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Git to E:\NextGen\Offline_IT_Ecosystem\020_SCM_Version_Control completed.
+Removed directory Git
+[PROCESSING] idp -> 030_Auth_Identity_Management
+Created directory: 030_Auth_Identity_Management
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\idp to E:\NextGen\Offline_IT_Ecosystem\030_Auth_Identity_Management completed.
+Removed directory idp
+[PROCESSING] WebServer -> 040_Web_Server_Frontend
+Created directory: 040_Web_Server_Frontend
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\WebServer to E:\NextGen\Offline_IT_Ecosystem\040_Web_Server_Frontend completed.
+Removed directory WebServer
+[PROCESSING] outranet -> 050_Network_Core_Services
+Created directory: 050_Network_Core_Services
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\outranet to E:\NextGen\Offline_IT_Ecosystem\050_Network_Core_Services completed.
+Removed directory outranet
+[PROCESSING] orchestrator -> 060_Virtualization_Containerization
+Created directory: 060_Virtualization_Containerization
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\orchestrator to E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization completed.
+Removed directory orchestrator
+[PROCESSING] Containers -> 060_Virtualization_Containerization
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Containers to E:\NextGen\Offline_IT_Ecosystem\060_Virtualization_Containerization completed.
+Removed directory Containers
+[PROCESSING] cicd -> 070_DevOps_CI_CD
+Created directory: 070_DevOps_CI_CD
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\cicd to E:\NextGen\Offline_IT_Ecosystem\070_DevOps_CI_CD completed.
+Removed directory cicd
+[PROCESSING] Monitoring -> 080_Observability_ELK_Stack
+Created directory: 080_Observability_ELK_Stack
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Monitoring to E:\NextGen\Offline_IT_Ecosystem\080_Observability_ELK_Stack completed.
+Removed directory Monitoring
+[PROCESSING] MQTT -> 090_Messaging_IoT_Broker
+Created directory: 090_Messaging_IoT_Broker
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\MQTT to E:\NextGen\Offline_IT_Ecosystem\090_Messaging_IoT_Broker completed.
+Removed directory MQTT
+[PROCESSING] java -> 100_Dependency_Runtime_Archives
+Created directory: 100_Dependency_Runtime_Archives
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\java to E:\NextGen\Offline_IT_Ecosystem\100_Dependency_Runtime_Archives completed.
+Removed directory java
+[PROCESSING] node -> 100_Dependency_Runtime_Archives
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\node to E:\NextGen\Offline_IT_Ecosystem\100_Dependency_Runtime_Archives completed.
+Removed directory node
+[PROCESSING] php -> 100_Dependency_Runtime_Archives
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\php to E:\NextGen\Offline_IT_Ecosystem\100_Dependency_Runtime_Archives completed.
+Removed directory php
+[PROCESSING] javascript -> 100_Dependency_Runtime_Archives
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\javascript to E:\NextGen\Offline_IT_Ecosystem\100_Dependency_Runtime_Archives completed.
+Removed directory javascript
+[PROCESSING] pip_archive -> 100_Dependency_Runtime_Archives
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\pip_archive to E:\NextGen\Offline_IT_Ecosystem\100_Dependency_Runtime_Archives completed.
+Removed directory pip_archive
+[PROCESSING] os_automation -> 105_System_Automation_Scripts
+Created directory: 105_System_Automation_Scripts
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\os_automation to E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts completed.
+Removed directory os_automation
+[PROCESSING] bat_files -> 105_System_Automation_Scripts
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\bat_files to E:\NextGen\Offline_IT_Ecosystem\105_System_Automation_Scripts completed.
+Removed directory bat_files
+[PROCESSING] Doc -> 195_Documentation_Knowledge_Base
+Created directory: 195_Documentation_Knowledge_Base
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Doc to E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base completed.
+Removed directory Doc
+[PROCESSING] Wiki -> 195_Documentation_Knowledge_Base
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Wiki to E:\NextGen\Offline_IT_Ecosystem\195_Documentation_Knowledge_Base completed.
+Removed directory Wiki
+[PROCESSING] Religion -> 200_Content_Data_Source
+Created directory: 200_Content_Data_Source
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Religion to E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source completed.
+Removed directory Religion
+[PROCESSING] Role_play -> 200_Content_Data_Source
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Role_play to E:\NextGen\Offline_IT_Ecosystem\200_Content_Data_Source completed.
+Removed directory Role_play
+[PROCESSING] Grok -> 210_Project_Dev_Tools
+Created directory: 210_Project_Dev_Tools
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\Grok to E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools completed.
+Removed directory Grok
+[PROCESSING] The_Generator -> 210_Project_Dev_Tools
+Moving contents from E:\NextGen\Offline_IT_Ecosystem\The_Generator to E:\NextGen\Offline_IT_Ecosystem\210_Project_Dev_Tools completed.
+Removed directory The_Generator

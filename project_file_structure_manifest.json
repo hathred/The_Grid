@@ -1,0 +1,82 @@
+[
+  {
+    "component_number": 10,
+    "component_name": "Infrastructure_LAN",
+    "directory_path": "Offline_IT_Ecosystem/01_Infrastructure_LAN",
+    "responsible_team": "IT_Ops",
+    "component_goal": "Establish physical air-gap and core network services.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 20,
+    "component_name": "DataWarehouse_DW",
+    "directory_path": "Offline_IT_Ecosystem/02_DataWarehouse_DW",
+    "responsible_team": "Data_Engineering",
+    "component_goal": "Install and configure the clustered PostgreSQL/Greenplum DW.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 30,
+    "component_name": "DataTransformation_dbt",
+    "directory_path": "Offline_IT_Ecosystem/03_DataTransformation_dbt",
+    "responsible_team": "Data_Engineering",
+    "component_goal": "Define and test all core data models.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 40,
+    "component_name": "SemanticLayer_Cube",
+    "directory_path": "Offline_IT_Ecosystem/04_SemanticLayer_Cube",
+    "responsible_team": "Data_Analytics",
+    "component_goal": "Implement Single Source of Truth for all metrics via Cube.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 50,
+    "component_name": "PresentationLayer_Frontend",
+    "directory_path": "Offline_IT_Ecosystem/05_PresentationLayer_Frontend",
+    "responsible_team": "Web_Dev",
+    "component_goal": "Build the custom, visualization-intensive React/D3 dashboard.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 60,
+    "component_name": "DataScience_MLOps",
+    "directory_path": "Offline_IT_Ecosystem/06_DataScience_MLOps",
+    "responsible_team": "Data_Science",
+    "component_goal": "Configure local environment for model development and tracking.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 70,
+    "component_name": "DevOps_CI_CD",
+    "directory_path": "Offline_IT_Ecosystem/07_DevOps_CI_CD",
+    "responsible_team": "DevOps",
+    "component_goal": "Set up local Gitea and Jenkins for version control and automation.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 80,
+    "component_name": "System_Automation",
+    "directory_path": "Offline_IT_Ecosystem/08_System_Automation",
+    "responsible_team": "Data_Engineering",
+    "component_goal": "Deploy Airflow/Prefect for workflow orchestration.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 90,
+    "component_name": "Offline_Archival",
+    "directory_path": "Offline_IT_Ecosystem/09_Offline_Archival",
+    "responsible_team": "IT_Ops",
+    "component_goal": "Define and configure ZFS and LTO tape backup procedures.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  },
+  {
+    "component_number": 100,
+    "component_name": "Auxiliary_Services",
+    "directory_path": "Offline_IT_Ecosystem/10_Auxiliary_Services",
+    "responsible_team": "IT_Ops",
+    "component_goal": "Provide local Identity (Keycloak), Monitoring (ELK), and Documentation (Wiki) services.",
+    "creation_timestamp": "2025-10-31 16:19:08"
+  }
+]
