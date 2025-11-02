@@ -1,0 +1,207 @@
+# =============================================================================
+# DIRECTORY MANIFEST SCHEMA v2.0
+# Purpose: Structured, machine-readable component definitions
+# Location: Place in every numbered component directory (e.g., 020_SCM_Version_Control/)
+# =============================================================================
+
+manifest_version: "2.0"
+component_id: "020"  # Must match directory prefix
+component_name: "SCM_Version_Control"
+category: "Development Tools"
+status: "operational"  # draft | partial | operational | deprecated
+
+# =============================================================================
+# DESCRIPTION
+# =============================================================================
+description:
+  short: "Source Code Management and Version Control Systems"
+  long: |
+    Provides offline-capable Git servers (Gitea, GitLab) and version control
+    tools for managing codebases without external dependencies.
+  
+  use_cases:
+    - "Local Git repository hosting"
+    - "Code review and collaboration"
+    - "CI/CD integration"
+
+# =============================================================================
+# DEPENDENCIES & DOWNLOADS
+# =============================================================================
+dependencies:
+  runtime:
+    - component: "160_Mirror_Tool_Dependencies"
+      reason: "Requires Node.js for Gitea"
+    - component: "010_Data_RDBMS_NoSQL"
+      reason: "PostgreSQL backend for GitLab"
+  
+  system:
+    - name: "Windows 10+"
+      version: "21H2"
+    - name: "Git"
+      version: "2.51.2+"
+
+# Download URLs with hash verification
+download_urls:
+  - name: "Gitea Windows AMD64"
+    version: "1.24.6"
+    url: "https://github.com/go-gitea/gitea/releases/download/v1.24.6/gitea-1.24.6-gogit-windows-4.0-amd64.exe"
+    filename: "gitea-1.24.6-gogit-windows-4.0-amd64.exe"
+    sha256: "abc123def456..."  # TODO: Fill actual hash
+    size_mb: 85
+    license: "MIT"
+    
+  - name: "Gitea macOS AMD64"
+    version: "1.24.6"
+    url: "https://github.com/go-gitea/gitea/releases/download/v1.24.6/gitea-1.24.6-darwin-10.12-amd64"
+    filename: "gitea-1.24.6-darwin-10.12-amd64"
+    sha256: "def789ghi012..."
+    size_mb: 82
+    license: "MIT"
+
+# Chocolatey packages (Windows automation)
+chocolatey:
+  - package: "git"
+    version: "2.51.2"
+  - package: "gitea"
+    version: "1.24.6"
+    source: "https://community.chocolatey.org/api/v2/"
+
+# Ansible roles (Linux deployment)
+ansible:
+  roles:
+    - name: "geerlingguy.git"
+      tags: ["scm", "git"]
+    - name: "gitea"
+      tags: ["scm", "gitea"]
+  
+  vars:
+    gitea_http_port: 3000
+    gitea_db_type: "sqlite3"
+    gitea_offline_mode: true
+
+# =============================================================================
+# INSTALLATION & CONFIGURATION
+# =============================================================================
+installation:
+  windows:
+    steps:
+      - action: "download"
+        file: "gitea-1.24.6-gogit-windows-4.0-amd64.exe"
+      - action: "run"
+        command: "gitea-1.24.6-gogit-windows-4.0-amd64.exe web --config custom/conf/app.ini"
+        working_dir: "E:\\Deploy\\Offline_IT_Ecosystem\\020_SCM_Version_Control"
+  
+  linux:
+    steps:
+      - action: "extract"
+        file: "gitea-1.24.6-linux-amd64"
+      - action: "chmod"
+        file: "gitea-1.24.6-linux-amd64"
+        mode: "+x"
+      - action: "systemd"
+        service: "gitea.service"
+
+  macos:
+    steps:
+      - action: "extract"
+        file: "gitea-1.24.6-darwin-10.12-amd64"
+      - action: "launchd"
+        plist: "com.gitea.server.plist"
+
+# Configuration files to generate
+config_templates:
+  - name: "app.ini"
+    path: "custom/conf/app.ini"
+    template: |
+      [server]
+      PROTOCOL = http
+      DOMAIN = localhost
+      HTTP_PORT = 3000
+      OFFLINE_MODE = true
+      
+      [database]
+      DB_TYPE = sqlite3
+      PATH = data/gitea.db
+
+# =============================================================================
+# DML PROCESSING RULES
+# =============================================================================
+dml:
+  enabled: true
+  file_patterns:
+    - "*.md"
+    - "*.txt"
+    - "Gitlab_install_instructions.txt"
+  
+  exclude_patterns:
+    - "*.exe"
+    - "*.zip"
+    - "custom/**"
+  
+  key_mappings:
+    installation_step: "is"
+    configuration: "cfg"
+    description: "d"
+
+# =============================================================================
+# HEALTH & VALIDATION
+# =============================================================================
+health_check:
+  endpoint: "http://localhost:3000/api/healthz"
+  expected_status: 200
+  timeout_seconds: 5
+
+validation:
+  files_exist:
+    - "gitea-1.24.6-gogit-windows-4.0-amd64.exe"
+    - "Gitlab_install_instructions.txt"
+  
+  services_running:
+    - name: "Gitea"
+      port: 3000
+
+# =============================================================================
+# DOCUMENTATION
+# =============================================================================
+documentation:
+  readme: "README.md"
+  wiki_page: "https://internal-wiki/020_SCM"
+  external_docs:
+    - name: "Gitea Official Docs"
+      url: "https://docs.gitea.io/"
+      local_mirror: "docs/gitea/"
+
+# =============================================================================
+# MAINTENANCE
+# =============================================================================
+maintenance:
+  backup:
+    paths:
+      - "data/gitea.db"
+      - "custom/conf/app.ini"
+    frequency: "daily"
+    retention_days: 30
+  
+  updates:
+    check_url: "https://github.com/go-gitea/gitea/releases/latest"
+    auto_update: false
+
+# =============================================================================
+# METADATA
+# =============================================================================
+metadata:
+  created: "2024-11-15"
+  updated: "2025-11-02"
+  author: "Hathred88"
+  contributors:
+    - "Claude (Anthropic)"
+  
+  tags:
+    - git
+    - version-control
+    - scm
+    - collaboration
+    - offline
+  
+  priority: "high"
+  complexity: "medium"

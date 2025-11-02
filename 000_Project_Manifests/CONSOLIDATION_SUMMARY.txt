@@ -1,0 +1,29 @@
+======================================================================
+CONSOLIDATION SUMMARY REPORT
+======================================================================
+
+Source Files:
+  ✓ Directory_manifest.json
+  ✓ Project_Description.json
+  ✓ Project_Goal.json
+  ✓ handover.json
+  ✓ onboarding.json
+  ✓ project_file_structure_manifest.json
+
+Consolidated Sections:
+  • manifest_version: 1 items
+  • project_name: 1 items
+  • created: 1 items
+  • description: 5 items
+  • goals: 4 items
+  • roadmap: 0 items
+  • structure: 2 items
+  • documentation: 0 items
+  • handover: 4 items
+  • mtg_collection: 0 items
+  • onboarding: 4 items
+
+Roadmap Statistics:
+
+
+======================================================================

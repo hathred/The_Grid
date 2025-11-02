@@ -1,0 +1,191 @@
+# =============================================================================
+# Ansible Playbook: Deploy Offline IT Ecosystem
+# Purpose: Push E:\Deploy to remote Windows/Linux machines
+# Usage: ansible-playbook deploy_ecosystem.yml -i inventory.ini
+# =============================================================================
+
+---
+- name: Deploy Offline IT Ecosystem to Remote Machines
+  hosts: ecosystem_targets
+  gather_facts: yes
+  become: yes  # Linux only
+  
+  vars:
+    # Paths
+    local_codex_root: "E:\\Codex\\Installers"
+    local_deploy_root: "E:\\Deploy\\Offline_IT_Ecosystem"
+    remote_deploy_root: "/opt/offline_ecosystem"  # Linux
+    remote_deploy_root_windows: "E:\\Deploy\\Offline_IT_Ecosystem"  # Windows
+    
+    # DML Pipeline
+    dml_pipeline_path: "210_Project_Dev_Tools/Summarize"
+    
+    # Sync options
+    sync_delete: no  # Set to yes to delete remote files not in source
+    
+  tasks:
+    # =========================================================================
+    # PLATFORM DETECTION
+    # =========================================================================
+    - name: Set platform-specific variables
+      set_fact:
+        deploy_root: "{{ remote_deploy_root_windows if ansible_os_family == 'Windows' else remote_deploy_root }}"
+        path_separator: "{{ '\\' if ansible_os_family == 'Windows' else '/' }}"
+    
+    # =========================================================================
+    # WINDOWS DEPLOYMENT
+    # =========================================================================
+    - name: Windows - Ensure deployment directory exists
+      win_file:
+        path: "{{ remote_deploy_root_windows }}"
+        state: directory
+      when: ansible_os_family == "Windows"
+    
+    - name: Windows - Sync Codex to remote
+      win_robocopy:
+        src: "{{ local_codex_root }}"
+        dest: "{{ remote_deploy_root_windows }}"
+        recurse: yes
+        flags: /E /XO /MT:8 /R:3 /W:5
+      when: ansible_os_family == "Windows"
+      register: robocopy_result
+      failed_when: robocopy_result.rc >= 8
+    
+    - name: Windows - Run DML Pipeline (Dry Run)
+      win_command: "{{ remote_deploy_root_windows }}\\{{ dml_pipeline_path }}\\2_run_pipeline_dryrun.bat"
+      when: ansible_os_family == "Windows"
+      register: dml_dryrun
+      ignore_errors: yes
+    
+    - name: Windows - Display DML Dry Run Results
+      debug:
+        var: dml_dryrun.stdout_lines
+      when: ansible_os_family == "Windows" and dml_dryrun is defined
+    
+    - name: Windows - Run DML Pipeline (Full)
+      win_command: "{{ remote_deploy_root_windows }}\\{{ dml_pipeline_path }}\\3_run_pipeline_full.bat"
+      when: ansible_os_family == "Windows" and dml_dryrun.rc == 0
+      register: dml_full
+    
+    # =========================================================================
+    # LINUX DEPLOYMENT
+    # =========================================================================
+    - name: Linux - Ensure deployment directory exists
+      file:
+        path: "{{ remote_deploy_root }}"
+        state: directory
+        mode: '0755'
+      when: ansible_os_family != "Windows"
+    
+    - name: Linux - Sync Codex to remote
+      synchronize:
+        src: "{{ local_codex_root }}/"
+        dest: "{{ remote_deploy_root }}/"
+        delete: "{{ sync_delete }}"
+        recursive: yes
+        compress: yes
+        rsync_opts:
+          - "--exclude=.git"
+          - "--exclude=*.exe"
+          - "--exclude=*.msi"
+      when: ansible_os_family != "Windows"
+    
+    - name: Linux - Install Python dependencies
+      pip:
+        requirements: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}/requirements.txt"
+        virtualenv: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}/venv"
+        virtualenv_command: python3 -m venv
+      when: ansible_os_family != "Windows"
+    
+    - name: Linux - Run DML Pipeline (Dry Run)
+      command:
+        cmd: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}/venv/bin/python src/main_grok.py --dry-run"
+        chdir: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}"
+      when: ansible_os_family != "Windows"
+      register: dml_dryrun_linux
+      ignore_errors: yes
+    
+    - name: Linux - Run DML Pipeline (Full)
+      command:
+        cmd: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}/venv/bin/python src/main_grok.py"
+        chdir: "{{ remote_deploy_root }}/{{ dml_pipeline_path }}"
+      when: ansible_os_family != "Windows" and dml_dryrun_linux.rc == 0
+      register: dml_full_linux
+    
+    # =========================================================================
+    # COMPONENT INSTALLATION
+    # =========================================================================
+    - name: Windows - Install Chocolatey packages from manifests
+      win_command: "powershell.exe -ExecutionPolicy Bypass -File {{ remote_deploy_root_windows }}\\choco_install.ps1"
+      when: ansible_os_family == "Windows"
+      register: choco_install
+      ignore_errors: yes
+    
+    - name: Linux - Install system packages
+      package:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - git
+        - python3
+        - python3-pip
+        - postgresql
+        - nginx
+      when: ansible_os_family != "Windows"
+      ignore_errors: yes
+    
+    # =========================================================================
+    # VALIDATION
+    # =========================================================================
+    - name: Verify DML output files exist
+      find:
+        paths: "{{ deploy_root }}/{{ dml_pipeline_path }}/output"
+        patterns: "*.dml.b64"
+        recurse: yes
+      register: dml_files
+    
+    - name: Report deployment status
+      debug:
+        msg: "Deployment complete. Found {{ dml_files.matched }} DML files."
+    
+    # =========================================================================
+    # LOGGING
+    # =========================================================================
+    - name: Create deployment log
+      copy:
+        content: |
+          Deployment Log
+          ==============
+          Date: {{ ansible_date_time.iso8601 }}
+          Host: {{ inventory_hostname }}
+          Platform: {{ ansible_os_family }}
+          DML Files Generated: {{ dml_files.matched }}
+          
+          Source: {{ local_deploy_root }}
+          Destination: {{ deploy_root }}
+        dest: "{{ deploy_root }}/995_Project_Logs/ansible_deploy_{{ ansible_date_time.epoch }}.log"
+
+# =============================================================================
+# POST-DEPLOYMENT TASKS
+# =============================================================================
+- name: Post-Deployment Health Check
+  hosts: ecosystem_targets
+  gather_facts: no
+  
+  tasks:
+    - name: Check if key services are accessible
+      wait_for:
+        port: "{{ item.port }}"
+        host: "{{ item.host }}"
+        timeout: 10
+      loop:
+        - { host: "localhost", port: 3000, name: "Gitea" }
+        - { host: "localhost", port: 5432, name: "PostgreSQL" }
+        - { host: "localhost", port: 80, name: "Web Server" }
+      ignore_errors: yes
+      register: service_check
+    
+    - name: Display service status
+      debug:
+        msg: "{{ item.item.name }}: {{ 'UP' if item.failed == false else 'DOWN' }}"
+      loop: "{{ service_check.results }}"
