@@ -1,0 +1,17 @@
+[Sun 11/02/2025 23:11:12.02] Defined initial dynamic paths. 
+[Sun 11/02/2025 23:11:12.03] Checking for configuration file: E:\NextGen\config.txt 
+[Sun 11/02/2025 23:11:12.03] Reading configuration from E:\NextGen\config.txt... 
+[Sun 11/02/2025 23:11:12.04] Config Loaded: INSTALL_ROOT=E:\NextGen 
+[Sun 11/02/2025 23:11:12.05] Config Loaded: OFFLINE_FILES=E:\Codex 
+[Sun 11/02/2025 23:11:12.05] Config Loaded: LOG_DIR=E:\NextGen\\Logs 
+[Sun 11/02/2025 23:11:12.06] Configuration loaded and paths resolved. 
+[Sun 11/02/2025 23:11:12.06] Starting Core Installation Logic 
+[Sun 11/02/2025 23:11:12.07] Calling 01_Setup_System.bat 
+[Sun 11/02/2025 23:11:12.08] Master installer encountered an error. Stopping execution. 
+[Sun 11/02/2025 23:21:05.06] E:\NextGen\ 
+[%DATE% %TIME%] %~1 
+[%DATE% %TIME%] %~1 
+[%DATE% %TIME%] %~1 
+[%DATE% %TIME%] %~1 
+[%DATE% %TIME%] %~1 
+[%DATE% %TIME%] %~1 

@@ -1,5 +1,0 @@
-pyyaml>=6.0
-flask>=3.1
-flask-cors>=6.0
-pygments>=2.19
-markdown>=3.9
